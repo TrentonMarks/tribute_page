@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    background-color: rgb(224,224,224);
+    height: 93%;
+    width: 99vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+#caption {
+    text-align: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-div {
+    background-color: white;
+    height: 900px;
+    width: 90vw;
+}
+
+img {
+
+}
+
+#hero-img-caption {
+
+}
+
+
+
+
+
+
+
+/* rgb(53, 54, 58) */
