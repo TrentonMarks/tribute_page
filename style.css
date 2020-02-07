@@ -4,23 +4,27 @@ html, body {
 
 body {
     background-color: white;
-    color: black;
+    color: rgb(56,56,56);
     border: 1px solid white;
-    height: 100vh;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main {
-    background-color: rgb(224,224,224);
-    height: 93%;
-    width: 99vw;
+    background-color: rgb(240,240,240);
+    width: 98.8vw;
 }
 
 h1 {
     text-align: center;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-size: 2.5em;
 }
 
 #caption {
@@ -34,22 +38,63 @@ h1 {
 
 .hero-div {
     background-color: white;
-    height: 900px;
-    width: 90vw;
+    height: auto;
+    width: 97.9%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
 }
 
 img {
-
+    margin-top: 10px;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 #hero-img-caption {
-
+    margin: 15px;
 }
 
+.timeline-container {
+    width: 43%;
+    margin: auto;
+    text-align: center;
+}
 
+h2 {
+    font-size: 1.2em;
+    margin: 50px;
+}
 
+ul {
+    text-align: left;
+    margin-bottom: 50px;
+}
 
+li {
+    margin: 15px;
+    font-size: 1em;
+    line-height: 25px;
+}
 
+.bottom-content-container {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+}
 
+.wiki-link {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.15em;
+}
 
-/* rgb(53, 54, 58) */
+a {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: lightsteelblue;
+}
