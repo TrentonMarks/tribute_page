@@ -46,14 +46,14 @@ h1 {
     overflow: auto;
 }
 
-img {
+#image {
     margin-top: 10px;
     max-width: 100%;
     display: block;
     height: auto;
 }
 
-#hero-img-caption {
+#img-caption {
     margin: 15px;
 }
 
@@ -97,4 +97,28 @@ a {
 
 a:hover {
     color: lightsteelblue;
+}
+
+@media (max-width: 1200px) {
+    .timeline-container, .bottom-content-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .timeline-container, .bottom-content-container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px) {
+    .timeline-container, .bottom-content-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .timeline-container, .bottom-content-container {
+        width: 90%;
+    }
 }
